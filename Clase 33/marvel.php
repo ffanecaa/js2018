@@ -1,5 +1,5 @@
 <?php
-    $conn = NULL;
+    $con = NULL;
         try{
 
             $con = new PDO("mysql:host=localhost; dbname=marvel; charset=utf8", 'root', '');
